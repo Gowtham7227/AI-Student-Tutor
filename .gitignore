@@ -1,0 +1,39 @@
+# Environment variables & secrets (CRITICAL: never commit)
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Audio files (recordings and generated speech)
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.aac
+
+# Logs & temporary run files
+*.log
+scratch/
+powershell.cmd
+
+# Editor & OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
